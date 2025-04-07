@@ -12,7 +12,7 @@ RUN npm install
 RUN npm run build
 
 # 暴露端口
-EXPOSE 3001
+EXPOSE 3003
 
 # 启动服务
 CMD ["npm", "run", "dev"]
