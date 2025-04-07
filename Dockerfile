@@ -15,4 +15,4 @@ RUN npm run build
 EXPOSE 3001
 
 # 启动服务
-CMD ["npm", "start"] 
+CMD ["npm", "run", "dev"]
