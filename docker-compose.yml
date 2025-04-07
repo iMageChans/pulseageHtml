@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pulseage:
+    build: .
+    container_name: pulseage
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    restart: unless-stopped 

@@ -1,0 +1,22 @@
+{
+  "name": "pulseage",
+  "version": "1.0.0",
+  "description": "PulseAge - Track Your Heart, Understand Your Wellness",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r css dist/ && cp -r images dist/ && cp -r js dist/ && cp *.html dist/",
+    "start": "http-server dist -p 3001",
+    "dev": "http-server . -p 3003"
+  },
+  "keywords": [
+    "health",
+    "wellness",
+    "heart-rate",
+    "hrv"
+  ],
+  "author": "Beijing Geometry Network Technology Co., LTD",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 
